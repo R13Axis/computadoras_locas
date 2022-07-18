@@ -2,24 +2,29 @@
 
 
 html {
-  /* background-color:#020202; */
+  background-color:#020202;
   font-family: 'Roboto', sans-serif;
+  color:#fff;
 }
 
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-ul {
+
+
+
+ul  {
   list-style: none;
+  
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  padding: 50px;
 }
 
 
@@ -57,4 +62,20 @@ main {
   width: auto;
   height: auto;
   padding: 80px;
+}
+
+/* PC menu section */
+
+.menu_section {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu_section h2 a {
+  display: inline-block;
+}
+
+.menu_section a  {
+  padding: 10px;
 }
