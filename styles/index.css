@@ -5,6 +5,7 @@ html {
   background-color:#020202;
   font-family: 'Roboto', sans-serif;
   color:#fff;
+  box-sizing: border-box;
 }
 
 
@@ -16,22 +17,22 @@ html {
 
 
 
-ul  {
+ul, a {
   list-style: none;
-  
+  color:#fff;
+  text-decoration: none;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 10px;
 }
 
 
 .logo img {
   display: inline-block;
-  width: 200px;
-  border-radius: 1px;
+  width: 300px;
 }
 
 
@@ -45,6 +46,7 @@ header {
 main {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .banner {
@@ -58,10 +60,12 @@ main {
   
 }
 
+
+
 .text_1 {
-  width: auto;
-  height: auto;
   padding: 80px;
+  border: 1px solid #fff;
+  align-content: center;
 }
 
 /* PC menu section */
