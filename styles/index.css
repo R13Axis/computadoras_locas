@@ -91,3 +91,26 @@ main img {
 .menu_section a  {
   padding: 10px;
 }
+
+/* Sections */
+
+section {
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+}
+
+#godin_maestro, #godin_alpha, #noob_master, #rgb_lover, #pro_gamer, #movie_maker, #arqui, #nasa {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#godin_alpha, #rgb_lover, #movie_maker, #nasa {
+  flex-direction: row-reverse;
+}
+
+.img-gm {
+  width: 40%;
+}
