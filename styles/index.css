@@ -6,6 +6,7 @@ html {
   font-family: 'Roboto', sans-serif;
   color:#fff;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 
@@ -27,12 +28,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  border-bottom: 2px solid #fff;
 }
+
 
 
 .logo img {
   display: inline-block;
-  width: 300px;
+ 
 }
 
 
@@ -49,23 +52,23 @@ main {
   
 }
 
-.banner {
-  width: auto;
-  height: auto;
-  padding: 80px;
-}
 
 .banner img {
-  width: 500px;
+  width: 50%;
   
 }
 
 
 
 .text_1 {
-  padding: 80px;
+  margin: auto;
   border: 1px solid #fff;
-  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.text_1 h2,p,button {
+  margin: 20px;
 }
 
 /* PC menu section */
