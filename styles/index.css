@@ -115,3 +115,10 @@ section {
 .img-gm {
   width: 50%;
 }
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
