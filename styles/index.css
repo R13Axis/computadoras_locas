@@ -39,15 +39,26 @@ header {
  
 }
 
+.logo:hover {
+  display: inline-block;
+ background-color: #0093E9;
+ background-image: linear-gradient(162deg, #0093E9 0%, #80D0C7 100%);
+ ;
+}
+
 
 .cart img {
   display: inline-block;
   width: 50px;
 }
 
-.hidden {
-  display: none;
+.cart img:hover {
+  display: inline-block;
+  width: 50px;
+  transform: scale(1.1);
+  transition: 1s all ease;
 }
+
 
 main > div > h1 {
   padding-bottom: 30px;
@@ -191,3 +202,55 @@ html {
 
 }
 
+
+#menu ul li {
+  background-color:#2e518b;
+}
+
+#menu ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+ }
+
+ #menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+ }
+
+ #menu ul li:hover {
+  background:#5b78a7;
+  transition: 0s all ease;
+  transform: scale(1.1);
+ }
+
+ #menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#eee;
+  padding:0;
+ }
+
+ #menu ul ul li {
+  float:none;
+  width:150px
+ }
+
+ #menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+ }
+
+ #menu ul li:hover > ul {
+  display:block;
+ }
